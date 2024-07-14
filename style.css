@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+header>h1 {
+    margin-left: 40px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    letter-spacing: 1.3px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #c40094;
+}
+
+main {
+    width: 100%;
+    background: url('images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 210px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin: auto 450px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-container {
+    background-color: #070405;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
